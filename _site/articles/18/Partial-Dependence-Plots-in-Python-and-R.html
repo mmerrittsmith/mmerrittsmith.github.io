@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Partial Dependence Plots in Python and R</title>
+  <meta name="description" content="In writing my undergrad thesis  on wealth inequality and using various techniques for predicting it, I found myself disappointed that there was no simple met...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="http://localhost:4000/articles/18/Partial-Dependence-Plots-in-Python-and-R">
+
+  <link rel="alternate" type="application/rss+xml" title="Merritt Smith's blog" href="http://localhost:4000/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+<!-- 	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>-->
+ 	
+		
+  	
+		
+		    
+		      <a href="/">blog</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/about/">About Merritt</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>Partial Dependence Plots in Python and R</h1>
+<p class="subtitle">December 2, 2018</p>
+
+<p><span class="newthought">In writing my undergrad thesis</span>  on wealth inequality and using various techniques for predicting it, I found myself disappointed that there was no simple method in Python’s scikit-learn to generate partial dependence plots for random forests. The ability to create partial dependence plots for gradient boosted regressors <a href="https://scikit-learn.org/stable/auto_examples/ensemble/plot_partial_dependence.html">exists</a>, so why not for random forests, or anything else for that matter? In this post, I’ll discuss partial dependence plots, what they are, how they’re useful in ensemble methods, and dive into the state of the art for partial dependence plots in both Python and R.</p>
+
+<p><br /></p>
+<h3 id="whats-a-partial-dependence-plot">What’s a partial dependence plot?</h3>
+
+<p>A partial dependence plot is an attempt to open up the black box of ensemble methods. Normally, we can compute the importance of a given variable in estimating the response varaible, but do not have a great intuition as to the decision surface of even the most important variables. Partial dependence plots allow us to see the marginal effect of a given variable on the response variable by integrating out all of the other variables. They allow us to see the effect of a single variable on the response variable, which is otherwise not possible in ensemble methods. Thus, they’re a very powerful tool. Ensemble methods are being left by the wayside in 2018 for ever more complicated neural nets, but ensemble methods continue to provide a powerful and much more interpretable option for both regression and classification thanks to partial dependence plots. Now let’s see what they look like!</p>
+
+<h3 id="state-of-the-code-python">State of the code: Python</h3>
+
+<p>There’s been <a href="https://github.com/scikit-learn/scikit-learn/issues/4405">motion</a> <a href="https://github.com/scikit-learn/scikit-learn/pull/5653">on</a> <a href="https://github.com/scikit-learn/scikit-learn/pull/12599">the topic</a> of partial dependence plots since 2015 within sklearn, as well as some external work towards <a href="https://github.com/nyuvis/partial_dependence">a generalized partial dependence plot library</a> that can connect to the extant classifiers and regressors. I decided to test each of these tools out. The sklearn partial dependence plot is still going through edits, but it performs admirably, creating simple R-style partial dependence plot matrices.</p>
+
+<figure><figcaption>Partial Dependence Plots of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset, specifically using white wine portion.</figcaption><img src="/assets/img/SklearnPDP.png" /></figure>
+
+<p><br />
+The code also extends easily to create three dimensional partial dependence plots, should that tickle your fancy. Not normally my cup of tea, but in this case it allows for a more pithy data visualization and efficiently demonstrates variable interaction.</p>
+
+<figure><figcaption>3D Partial Dependence Plot of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset,
+specifically using white wine portion. </figcaption><img src="/assets/img/SklearnPDP3D.png" /></figure>
+
+<p><br /></p>
+
+<p>What’s more, this tool, if implemented, would be integrated seamlessly into the most commonly used Python machine learning library and would be a plotting option for every single ensemble method within sci-kit learn. That’s big.</p>
+
+<p><br /></p>
+
+<p>A more established and feature-rich Python library for plotting partial dependence is the NYU Visualization Lab’s ‘partial_dependence’.</p>
+
+
+
+    </article>
+    <span class="print-footer">Partial Dependence Plots in Python and R - December 2, 2018 - m. merritt smith</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:matthewmerrittsmith@gmail.com"><span class="icon-mail2"></span></a></li>    
+    
+      <li>
+        <a href="//twitter.com/MMerrittSmith"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/mmerrittsmith"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//gitlab.com/mmerrittsmith"><span class="icon-git"></span></a>
+      </li>
+    
+      <li>
+        <a href="//linkedin.com/in/mmerrittsmith/"><span class="icon-linkedin2"></span></a>
+      </li>
+    
+      <li>
+        <a href="//stackoverflow.com/users/8256022/merritt-smith?tab=profile"><span class="icon-stackoverflow"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2018 &nbsp;&nbsp;M. MERRITT SMITH</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for A foray into metaphor-infested wars </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+  </body>
+</html>

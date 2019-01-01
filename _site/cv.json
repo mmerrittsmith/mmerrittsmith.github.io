@@ -1,0 +1,99 @@
+{
+	    "Personal":
+		[
+			{"Name": "M. Merritt Smith"},
+			{"Summary": "I'm an aspiring computational social scientist currently studying international corruption dynamics and wealth inequality using network science, learning theory, and a backbone of economics and political science. I currently work as a research associate @ TRACE International."},
+			{"Email": "matthewmerrittsmith /at/ gmail.com"},
+			{"Website": "tbd"},
+			{"Twitter": "https://twitter.com/MMerrittSmith"},
+			{"Gitlab": "https://gitlab.com/mmerrittsmith"},
+			{"Github": "https://github.com/mmerrittsmith"}
+		],
+		"Education":
+		[
+			{
+				"when": "2014-2018",
+				"institution": "Tufts University",
+				"degree": "B.A.",
+				"subject": "Data Science and Public Policy",
+				"comments": "high honors on thesis studying wealth inequality with random forests and advanced regression methods",
+				"strength": 1
+			},
+			{
+				"when": "2017-2018",
+				"institution": "London School of Economics and Political Science",
+				"degree": "General Course",
+				"subject": "Statistics and Government",
+				"strength": 2
+			}
+		],
+		"Professional Programs":
+		[
+			{
+				"title": "Data Engineering Intern",
+				"when": "Fall 2017",
+				"where": "Boston, MA",
+				"organization": "Viewpoint Government Solutions",
+				"type": "part time school year internship",
+				"comments": "data migration using MSSQL, Python, Batch scripts",
+				"strength": 2
+			},
+			{
+				"title": "Data Analytics Intern",
+				"when": "Summer 2017",
+				"where": "Watsonville, CA",
+				"organization": "Graniterock",
+				"type": "summer internship",
+				"comments": "constructed new AWS data architecture, evangelized Tableau, scripted in R & Python",
+				"strength": 2
+			},
+			{
+				"title": "Cyber Intern",
+				"when": "Summer 2016",
+				"where": "Washington, D.C.",
+				"organization": "National Defense University Center for Technology and National Security Policy",
+				"type": "summer internship",
+				"comments": "researched and wrote on GDPR, data protection & cybersecurity policy",
+				"strength": 2
+			},
+			{
+				"title": "Software Engineering and Quality Assurance Intern",
+				"when": "Summer 2015",
+				"where": "Santa Cruz, CA",
+				"organization": "Fullpower Technologies",
+				"type": "summer internship",
+				"comments": "automated testing procedures using Bash scripts, created data lake using PySpark",
+				"strength": 2
+			}
+		],
+		"Work Experience":
+		[
+			{
+				"title": "Research Associate",
+				"organization": "TRACE International",
+				"type": "Full time",
+				"when": "May 2018-present",
+				"comments": "Oversaw all data for TRACE Matrix. Created anomaly detection model for quantifying unknown unknowns in due diligence analysis. Building dynamic Bayesian game to simulate incentive structures of bribe payers.",
+				"strength": 1
+			}
+		],
+		"Awards":
+		[
+			{
+				"title": "Department of Mathematics Award",
+				"granter": "Tufts University Department of Mathematics",
+				"comments": "",
+				"when": "2018",
+				"strength": 2
+			},
+			{
+				"title": "Eagle Scout Award",
+				"granter": "Boy Scouts of America",
+				"comments": "Troop 599 of Corralitos, CA",
+				"when": "2010",
+				"strength": 2
+			}
+		]
+	}
+
+}

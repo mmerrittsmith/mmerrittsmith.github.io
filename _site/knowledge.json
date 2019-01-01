@@ -1,0 +1,236 @@
+{
+	"Philosophy":
+	[
+		{
+			"area": "Stoicism",
+			"strength": 2,
+			"particularly": "Meditations, Enchiridion",
+			"active": 0
+		},
+		{
+			"area": "Aesthetics",
+			"strength": 3,
+			"particularly": "aesthetic cognitivism",
+			"active": 1
+		},
+		{
+			"area": "Epistemology",
+			"strength": 3,
+			"particlarly": "",
+			"active": 0
+		},
+		{
+			"area": "Ethics",
+			"strength": 2,
+			"particularly": "Utilitarianism, especially Singer and Mill",
+			"active": 0
+		},
+		{
+			"area": "Zen Buddhism",
+			"strength": 4,
+			"particularly": "",
+			"active": 0
+		},
+		{
+			"area": "Philosophy of mind",
+			"strength": 4,
+			"particularly": "alternative forms of intelligence found in animals",
+			"active": 0
+		},
+		{
+			"area": "Artificial intelligence",
+			"strength": 3,
+			"particularly": "Searle",
+			"active": 0
+		}
+	],
+	"Programming":
+		[
+			{
+				"area": "Python",
+				"particularly": "pandas, numpy, scikit-learn, matplotlib, featuretools, pyodbc, spacy, random, seaborn, gym, multiprocessing",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"langauge": "R",
+				"particularly": "tidyverse, shiny, ggplot2, VIM, randomForest, glmnet, car, caret, ggmap, parallel",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "javascript",
+				"particularly": "d3, jQuery, svg",
+				"strength": 3,
+				"active": 1
+			},
+			{
+				"area": "SQL",
+				"particularly": "",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Bash",
+				"particularly": "",
+				"strength": 3,
+				"active": 0
+			},
+			{
+				"area": "Matlab",
+				"particularly": "",
+				"strength": 4,
+				"active": 0
+			},
+			{
+				"area": "C++",
+				"particularly": "",
+				"strength": 3,
+				"active": 0
+			}
+		],
+	"Math/Statistics":
+		[
+			{
+				"area": "Ergodic Theory",
+				"particularly": "martingales",
+				"strength": 3,
+				"active": 0
+			},
+			{
+				"area": "Markov Processes",
+				"particularly": "Markov Decision Processes",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Dynamic Programming",
+				"particularly": "Reinforcement Learning",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Linear Algebra",
+				"particularly": "",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Calculus",
+				"particularly": "",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Mathematical optimization",
+				"particularly": "gradient descent, ill climbing, evolutionary algorithms",
+				"strength": 2,
+				"active": 0
+			}
+			{
+				"area": "Bayesian statistics",
+				"particuarly": "Bayesian networks, Bayesian parameter estimation",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Graph Theory",
+				"particularly": "trees/directed acyclic graphs",
+				"strength": 3,
+				"active": 0
+			},
+			{
+				"area": "Linear programming",
+				"particularly": "",
+				"strength": 3,
+				"active": 0
+			},
+			{
+				"area": "Probability theory",
+				"particularly": "probability density functions, probability mass functions",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Mathematical Modeling",
+				"particularly": "regressions, hypothesis tests",
+				"strength": 1,
+				"active": 1
+			},
+			{
+				"area": "Multi-armed Bandits",
+				"particularly": "",
+				"strength": 3,
+				"active": 1
+			},
+			{
+				"area": "Causality",
+				"particularly": "",
+				"strength": 4,
+				"active": 1
+			}
+		],
+	"Foreign Languages":
+		[
+			{
+				"area": "Spanish",
+				"particularly": "",
+				"strength": 2,
+				"active": 0
+			},
+			{
+				"area": "German",
+				"particularly": "",
+				"strength": 4,
+				"active": 1
+			}
+		],
+	"Economics":
+		[
+			{
+				"area": "Econometrics",
+				"particularly": "advanced regression techniques",
+				"strength": 2,
+				"active": 0
+			},
+			{
+				"area": "Wealth Inequality",
+				"particularly": "Piketty, Saez, Zucman",
+				"strength": 1,
+				"active": 0
+			},
+			{
+				"area": "Inequality Studies",
+				"particularly": "Sen, Chetty, Deming",
+				"strength": 3,
+				"active": 0
+			},
+			{
+				"area": "Growth theory",
+				"particuarly": "Solow-Swan, Romer, Galor",
+				"strength": 4,
+				"active": 0
+			},
+			{
+				"area": "Development economics",
+				"particularly": "Acemoglu, Duflo, Banerjee, Aghion, Bauer, Rodrik, Sen, Stiglitz",
+				"strength": 2,
+				"active": 1
+			},
+			{
+				"area": "Economics of Corruption",
+				"particularly": "Becker & Posner",
+				"strength": 1,
+				"active": 1
+			}
+		],
+	"Political Science":
+		[
+			{
+				"area": ""
+			}
+		]
+
+
+
+}

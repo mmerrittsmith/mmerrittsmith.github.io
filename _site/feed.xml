@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Merritt Smith's blog</title>
+    <description>A foray into metaphor-infested waters</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 25 Dec 2018 12:30:14 -0500</pubDate>
+    <lastBuildDate>Tue, 25 Dec 2018 12:30:14 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>George H. Bush:Mikhail Gorbachev :: Magnus Carlsen:Fabiano Caruana</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Chess for geopolitics&lt;/span&gt;  is an overworked metaphor. It seems to be capturing the way in which geopolitics is a game played by the people in high towers, combining a war from the tactictal to the operational to the strategic with a staring contest between two equavalently equipped opponents. Leaving aside the many aspects of geopolitics that are emphatically not well reflected in chess, I don’t find even these aspects to be universally available in geopolitics. However, in the specific case of the Cold War, maybe it’s not so bad. In that case, it captures the way in which the two sides peered at each other over the chessboard of Europe, the dichotomy between the two in the white and black pieces. The metaphor takes on a much more direct meaning due to Soviet prowess in the form of Tal, Spassky, Botvinnik, and Petrosian&lt;label for=&quot;Soviet-grandmasters&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Soviet-grandmasters&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;By no means an exhaustive list, a complete list of Soviet chess legends would be an impressive if boring blog post &lt;/span&gt; being challenged by the American&lt;label for=&quot;Fischer-hates-authority&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;Fischer-hates-authority&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;At the time} &lt;/span&gt; A number of events in the past few weeks all related to this idea have blended together in my head. When listening to the episode of John Dickerson’s wonderful Whistlestop podcast entitled &lt;a href=&quot;https://slate.com/news-and-politics/2018/12/berlin-wall-1989-critics-president-george-h-w-bush-wasnt-saying-enough.html&quot;&gt;If a Wall Falls&lt;/a&gt;, I thought about the &lt;a href=&quot;https://twitter.com/Kasparov63/status/1067125702712004609&quot;&gt;criticism&lt;/a&gt; that Magnus Carlsen received for not pressing his &lt;a href=&quot;https://lichess.org/analysis/standard/r3brk1/1pq5/3p1bp1/2nP1p1p/pQP1pP1P/4B1P1/PPR1BN2/1K1R4_w_-_-&quot;&gt;.9 centipawn advantage&lt;/a&gt; and superior position in Game 12 of the World Chess Championship, and how that compared to George H. Bush’s decision to not crow his victory as the Berlin Wall fell.
+&lt;br /&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;figcaption&gt;The Battle of Cannae in two images. Hannibal presented a weak center to the Romans, who responded with a deep formation to press this advantage. The Carthaginian forces then enveloped the Romans in one of the worst Roman defeats ever. A parable about the value of restraint.&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/battleofcannae.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Neither the Berlin Wall falling nor Carlsen’s advantageous position meant guaranteed victory, though we may now see them as inevitable due to the true course of history. As Dickerson notes in his podcast, there were a number of uncertainties surrounding Gorbachev and the trajectory of the Soviet Union under him. No one knew for certain whether he was a good faith reformer, and even if he was, no one knew whether the path to reform would be altered by the “hard-liners in Moscow”. Bush took Gorbachev at his word as a reformer, and purposefully assisted him by not giving fodder to the more conservative Soviet leaders. This ultimately proved to be the right decision, as the dissolution of the USSR occurred without any shots being fired between the two major powers.&lt;/p&gt;
+
+&lt;p&gt;Carlsen also elected not to press his advantage in Game 12 against Caruana. There is some very clear strategy behind this choice. Carlsen, the #1 player in the world in all three time constraints of chess&lt;label for=&quot;types-of-chess&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;types-of-chess&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Classical, Rapid, and Blitz &lt;/span&gt;, has an Elo score of 2835 in Classical format, while Caruana has an Elo score of 2832 in Classical. An insignificant difference. However, Carlsen has an Elo score of 2903 in Rapid format, while Caruana has an Elo score of 2766 in Rapid format. Using &lt;a href=&quot;https://wismuth.com/elo/calculator.html#name1=Carlsen%2C+Magnus&amp;amp;name2=Caruana%2C+Fabiano&amp;amp;best_of=12&quot;&gt; this calculation &lt;/a&gt; of their win probabilities based on their ratings, Magnus had about a 43% chance of winning in 12 classical games, Caruana had a 39% chance of winning, and there was a 19% chance of a draw after 12. In the Rapid best of 4 tiebreaker, Magnus had a 78% chance of winning, Caruana had a 6% chance of winning, and there was a 15% chance of a draw, based on &lt;a href=&quot;https://wismuth.com/elo/calculator.html#best_of=4&amp;amp;rating1=2903&amp;amp;rating2=2766&quot;&gt;this calculation&lt;/a&gt;. It’s not hard to see why Carlsen elected to draw and move on to the tiebreaker. The wisdom of this choice was born out by Carlsen’s three successive victories under Rapid time constraints.&lt;label for=&quot;carlsenraps&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;carlsenraps&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Also it has come to my attention that Carlsen &amp;lt;a href = https://www.youtube.com/watch?time_continue=380&amp;amp;v=ahtbecpKtOg&amp;gt;rapped&amp;lt;/a&amp;gt; on a song by Mr. Pimp-Lotion a few days ago, and it is my ethical responsibility to pass the happiness it brought me along &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no need to raise your risk profile&lt;label for=&quot;daryl-morey&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;daryl-morey&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Shoutout to Daryl Morey &lt;/span&gt; when you have the advantage. This is not to say that sitting on your hands is the best policy, only that perhaps the greatest advantage of having the advantage is the ability to pick your battles.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Dec 2018 12:24:46 -0500</pubDate>
+        <link>http://localhost:4000/articles/18/George-Bush-Mikhail-Gorbachev-Magnus-Carlsen-Fabiano-Caruana</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/18/George-Bush-Mikhail-Gorbachev-Magnus-Carlsen-Fabiano-Caruana</guid>
+        
+        
+        <category>chess</category>
+        
+        <category>history</category>
+        
+        <category>geopolitics</category>
+        
+      </item>
+    
+      <item>
+        <title>Partial Dependence Plots in Python and R</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In writing my undergrad thesis&lt;/span&gt;  on wealth inequality and using various techniques for predicting it, I found myself disappointed that there was no simple method in Python’s scikit-learn to generate partial dependence plots for random forests. The ability to create partial dependence plots for gradient boosted regressors &lt;a href=&quot;https://scikit-learn.org/stable/auto_examples/ensemble/plot_partial_dependence.html&quot;&gt;exists&lt;/a&gt;, so why not for random forests, or anything else for that matter? In this post, I’ll discuss partial dependence plots, what they are, how they’re useful in ensemble methods, and dive into the state of the art for partial dependence plots in both Python and R.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;whats-a-partial-dependence-plot&quot;&gt;What’s a partial dependence plot?&lt;/h3&gt;
+
+&lt;p&gt;A partial dependence plot is an attempt to open up the black box of ensemble methods. Normally, we can compute the importance of a given variable in estimating the response varaible, but do not have a great intuition as to the decision surface of even the most important variables. Partial dependence plots allow us to see the marginal effect of a given variable on the response variable by integrating out all of the other variables. They allow us to see the effect of a single variable on the response variable, which is otherwise not possible in ensemble methods. Thus, they’re a very powerful tool. Ensemble methods are being left by the wayside in 2018 for ever more complicated neural nets, but ensemble methods continue to provide a powerful and much more interpretable option for both regression and classification thanks to partial dependence plots. Now let’s see what they look like!&lt;/p&gt;
+
+&lt;h3 id=&quot;state-of-the-code-python&quot;&gt;State of the code: Python&lt;/h3&gt;
+
+&lt;p&gt;There’s been &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/issues/4405&quot;&gt;motion&lt;/a&gt; &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/pull/5653&quot;&gt;on&lt;/a&gt; &lt;a href=&quot;https://github.com/scikit-learn/scikit-learn/pull/12599&quot;&gt;the topic&lt;/a&gt; of partial dependence plots since 2015 within sklearn, as well as some external work towards &lt;a href=&quot;https://github.com/nyuvis/partial_dependence&quot;&gt;a generalized partial dependence plot library&lt;/a&gt; that can connect to the extant classifiers and regressors. I decided to test each of these tools out. The sklearn partial dependence plot is still going through edits, but it performs admirably, creating simple R-style partial dependence plot matrices.&lt;/p&gt;
+
+&lt;figure&gt;&lt;figcaption&gt;Partial Dependence Plots of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset, specifically using white wine portion.&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/SklearnPDP.png&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The code also extends easily to create three dimensional partial dependence plots, should that tickle your fancy. Not normally my cup of tea, but in this case it allows for a more pithy data visualization and efficiently demonstrates variable interaction.&lt;/p&gt;
+
+&lt;figure&gt;&lt;figcaption&gt;3D Partial Dependence Plot of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset,
+specifically using white wine portion. &lt;/figcaption&gt;&lt;img src=&quot;/assets/img/SklearnPDP3D.png&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What’s more, this tool, if implemented, would be integrated seamlessly into the most commonly used Python machine learning library and would be a plotting option for every single ensemble method within sci-kit learn. That’s big.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A more established and feature-rich Python library for plotting partial dependence is the NYU Visualization Lab’s ‘partial_dependence’.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Dec 2018 14:30:27 -0500</pubDate>
+        <link>http://localhost:4000/articles/18/Partial-Dependence-Plots-in-Python-and-R</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/18/Partial-Dependence-Plots-in-Python-and-R</guid>
+        
+        
+        <category>python</category>
+        
+        <category>r</category>
+        
+        <category>sklearn</category>
+        
+        <category>randomforest</category>
+        
+      </item>
+    
+  </channel>
+</rss>
