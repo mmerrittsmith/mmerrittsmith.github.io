@@ -3,14 +3,14 @@ title: Merritt Smith's blog
 subtitle: A foray into metaphor-infested wars
 author: m. merritt smith
 simple_search: http://google.com/search
-description: A foray into metaphor-infested waters
+#description: A foray into metaphor-infested waters
 name: mmerrittsmithblog
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
 timezone: America/New_York
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md', .DS_Store]
 post:
   template: _post.txt
   extension: md
