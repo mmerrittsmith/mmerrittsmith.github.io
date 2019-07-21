@@ -38,13 +38,13 @@ What's more, this tool, if implemented, would be integrated seamlessly into the 
 
 A more established and feature-rich Python library for plotting partial dependence is the NYU Visualization Lab's 'partial_dependence'. It offers an abstraction of matplotlib with its pdp_plot object, with which you can calculate partial dependence, clusters, and plot. I'm particularly a fan of the automated clustered pdp plot with full curves. Since I'm using random forests for each of these examples, I get a slightly jittery plot, but this plot is very easy to create and effectively demonstrates the partial dependence of the a wine's density on its score. 
 
-{% maincolumn 'assets/img/nyupdp.png' 'A PDP created with NYU Visualization Lab's partial_dependence library, classifying good and bad wine using with sklearn's RandomForestClassifier. The options used to create this plot were cell_view = True, plot_full_curves = True, local_curves = False.' %}
+{% maincolumn 'assets/img/nyupdp.png' 'A PDP created with the NYU Visualization Lab partial_dependence library, classifying good and bad wine using with the sklearn RandomForestClassifier. The options used to create this plot were cell_view = True, plot_full_curves = True, local_curves = False.' %}
 
 <br>
 
 Finally, PDPbox. It also supports As of typing this, the pdp_interact_plot functionality appeared to be broken for the default option, contour plots, due to a recent change in matplotlib. In fact, there are a number of functionalities that aren't working as expected due to changes in other packages, so if using this packages keep that in mind. The implementation for creating simple PDPs in this package is through pdp_plot, which is what I use below to look at the effect of the pH of the wine on the quality. It's fairly feature-rich, allowing you to select whether to cluster, how to cluster, how many lines to show, etc. all in one function call. 
 
-{% maincolumn 'assets/img/pdpbox.png' 'A PDP created with PDPbox, classifying good and bad wine using with sklearn's RandomForestClassifier. This is an example of PDPBox's PDPIsolate and pdp_plot functionality.' %}
+{% maincolumn 'assets/img/pdpbox.png' 'A PDP created with PDPbox, classifying good and bad wine using with the sklearn RandomForestClassifier. This is an example of the PDPBox PDPIsolate and pdp_plot functionality.' %}
 
 
 
