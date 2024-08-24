@@ -2,8 +2,8 @@
 layout: full-width
 title: About Merritt
 ---
+<br> <br> <br>
 
-I'm a computational social scientist currently working on international business bribery and corruption problems with TRACE International. I like investigating hard problems worth solving using a broad set of tools, but mostly I use what is commonly known as 'data science'. 
+{% maincolumn 'assets/img/IMG_3202.jpg' ''    %}
 
-I write about a litany of topics I'm interested in on this blog.
-
+I am a PhD student at Berkeley in the Information School, where I'm lucky to be advised by <a href="https://www.jblumenstock.com/">Josh Blumenstock</a>. I'm interested in using econometrics and machine learning methods to improve the lives of disadvantaged people around the world, especially focusing on finding out how to optimally target interventions, though my portfolio of work includes research on crime, policing, development, deep learning, and causal inference. I hold an MS in Computational Analysis and Public Policy from the University of Chicao, and a BA in Data Science and Public Policy from Tufts University. 
