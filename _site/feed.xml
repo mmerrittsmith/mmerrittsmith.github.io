@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Merritt Smith's blog</title>
+    <title>Merritt Smith&apos;s blog</title>
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Aug 2020 23:48:10 -0400</pubDate>
-    <lastBuildDate>Tue, 25 Aug 2020 23:48:10 -0400</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sat, 24 Aug 2024 17:48:31 -0400</pubDate>
+    <lastBuildDate>Sat, 24 Aug 2024 17:48:31 -0400</lastBuildDate>
+    <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Rothko: A Set of Color Palettes for R</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Rothko&lt;/span&gt;  is a set of color palettes for R in the form of an R package. It follows directly from Karthik Ram’s &lt;a href=&quot;https://github.com/karthik/wesanderson&quot;&gt;wesanderson&lt;/a&gt; package, but instead using color palettes derived from Mark Rothko’s paintings. I did this with &lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt;, but there’s many websites out there that will do the same thing.&lt;/p&gt;
+
+&lt;p&gt;It’s simple to install, and has options for both continuous and discrete data. Install it using &lt;code&gt;devtools::install_github(&quot;mmerrittsmith/rothko&quot;)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The palettes are named after the paintings they are derived from, and this leads to some having rather long names like “Violet, Black, Orange, Yellow on White and Red”. Others are named simply “Unitled 1949”. My personal favorites are shown below.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;rothko_palette(&quot;Number 10&quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;figcaption&gt;Number 10&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/Number10-1.png&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;code&gt;rothko_palette(&quot;Light Cloud, Dark Cloud&quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;figcaption&gt;Light Cloud, Dark Cloud&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/LightCloudDarkCloud-1.png&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;code&gt;rothko_palette(&quot;Number 16&quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;figcaption&gt;Number 16&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/Number16-1.png&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can use these palettes in the same way that you would use any palette in R, for example as an argument to &lt;code&gt;scale_fill_gradientn&lt;/code&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Mar 2021 12:30:27 -0500</pubDate>
+        <link>/articles/21/Rothko-Color-Palettes</link>
+        <guid isPermaLink="true">/articles/21/Rothko-Color-Palettes</guid>
+        
+        
+        <category>r</category>
+        
+        <category>rothko</category>
+        
+        <category>generative</category>
+        
+        <category>art</category>
+        
+      </item>
     
       <item>
         <title>George H. Bush:Mikhail Gorbachev :: Magnus Carlsen:Fabiano Caruana</title>
