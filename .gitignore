@@ -1,6 +1,4 @@
 .DS_Store
-_site/*
-_drafts/*
-_layouts/*
-_*
-_includes/*
+_site/
+local/
+Gemfile.lock

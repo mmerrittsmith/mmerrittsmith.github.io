@@ -21,13 +21,13 @@ A partial dependence plot is an attempt to open up the black box of ensemble met
  There's been <a href = "https://github.com/scikit-learn/scikit-learn/issues/4405">motion</a> <a href = "https://github.com/scikit-learn/scikit-learn/pull/5653">on</a> <a href = "https://github.com/scikit-learn/scikit-learn/pull/12599">the topic</a> of partial dependence plots since 2015 within sklearn, as well as some external work by a number of sources on creating a generalized partial dependence plot library</a> that can connect to the extant classifiers and regressors. I decided to test each of these tools out. The sklearn partial dependence plot is still going through edits, but it performs admirably, creating simple R-style partial dependence plot matrices.
 
 
-{% maincolumn 'assets/img/SklearnPDP.png' 'Partial Dependence Plots of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset.'    %}
+{% maincolumn 'images/img/SklearnPDP.png' 'Partial Dependence Plots of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset.'    %}
 
 
 <br>
 The code also extends easily to create three dimensional partial dependence plots, should that tickle your fancy. Not normally my cup of tea, but in this case it allows for a more pithy data visualization and efficiently demonstrates variable interaction. 
 
-{% maincolumn 'assets/img/SklearnPDP3D.png' '3D Partial Dependence Plot of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset,
+{% maincolumn 'images/img/SklearnPDP3D.png' '3D Partial Dependence Plot of fixed acidity and volatile acidity on perceived wine quality using data from UCI Machine Learning Repository Wine Quality Dataset,
 specifically using white wine portion. '%}
 
 <br>
@@ -38,13 +38,13 @@ What's more, this tool, if implemented, would be integrated seamlessly into the 
 
 A more established and feature-rich Python library for plotting partial dependence is the NYU Visualization Lab's 'partial_dependence'. It offers an abstraction of matplotlib with its pdp_plot object, with which you can calculate partial dependence, clusters, and plot. I'm particularly a fan of the automated clustered pdp plot with full curves. Since I'm using random forests for each of these examples, I get a slightly jittery plot, but this plot is very easy to create and effectively demonstrates the partial dependence of the a wine's density on its score. 
 
-{% maincolumn 'assets/img/nyupdp.png' 'A PDP created with the NYU Visualization Lab partial_dependence library, classifying good and bad wine using with the sklearn RandomForestClassifier. The options used to create this plot were cell_view = True, plot_full_curves = True, local_curves = False.' %}
+{% maincolumn 'images/img/nyupdp.png' 'A PDP created with the NYU Visualization Lab partial_dependence library, classifying good and bad wine using with the sklearn RandomForestClassifier. The options used to create this plot were cell_view = True, plot_full_curves = True, local_curves = False.' %}
 
 <br>
 
 Finally, PDPbox. It also supports As of typing this, the pdp_interact_plot functionality appeared to be broken for the default option, contour plots, due to a recent change in matplotlib. In fact, there are a number of functionalities that aren't working as expected due to changes in other packages, so if using this packages keep that in mind. The implementation for creating simple PDPs in this package is through pdp_plot, which is what I use below to look at the effect of the pH of the wine on the quality. It's fairly feature-rich, allowing you to select whether to cluster, how to cluster, how many lines to show, etc. all in one function call. 
 
-{% maincolumn 'assets/img/pdpbox.png' 'A PDP created with PDPbox, classifying good and bad wine using with the sklearn RandomForestClassifier. This is an example of the PDPBox PDPIsolate and pdp_plot functionality.' %}
+{% maincolumn 'images/img/pdpbox.png' 'A PDP created with PDPbox, classifying good and bad wine using with the sklearn RandomForestClassifier. This is an example of the PDPBox PDPIsolate and pdp_plot functionality.' %}
 
 
 
