@@ -2,9 +2,11 @@
 title: "Criminal charges, risk assessment, and violent recidivism in cases of domestic abuse"
 collection: publications
 category: manuscripts
+status: ra
 excerpt: ''
 date: 2023-01-05
 venue: 'NBER Working Paper Series'
+authors: 'Dan A. Black, et al.'
 paperurl: 'https://www.nber.org/system/files/working_papers/w30884/w30884.pdf'
 ---
 

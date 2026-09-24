@@ -1,0 +1,28 @@
+---
+layout: full-width
+permalink: /research/
+title: research
+order: 2
+---
+
+{% assign sections = "published:Published|working:Working Papers|soon:Coming Soon|ra:Research Assistance" | split: "|" %}
+{% for section in sections %}
+  {% assign key = section | split: ":" | first %}
+  {% assign heading = section | split: ":" | last %}
+  {% assign papers = site.publications | where: "status", key | sort: "date" | reverse %}
+  {% if papers.size > 0 %}
+  <h1 class="content-listing-header sans">{{ heading }}</h1>
+  <ul class="content-listing ">
+    {% for paper in papers %}
+        <li class="listing">
+          <hr class="slender">
+          {% if paper.paperurl %}<a href="{{ paper.paperurl }}"><h3 class="contrast">{{ paper.title }}</h3></a>
+          {% else %}<h3 class="contrast">{{ paper.title }}</h3>{% endif %}
+          {% if paper.authors %}<br><span class="smaller">{{ paper.authors }}</span>{% endif %}
+          <br><span class="smaller">{% if paper.venue %}<i>{{ paper.venue }}</i>, {% endif %}{{ paper.date | date: "%Y" }}</span>  <br/>
+          <div>{{ paper.content }}</div>
+        </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}
